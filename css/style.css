@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "open-sans";
+}
+@font-face{
+    font-family: "open-sans";
+    src: url("../fonts/OpenSans-Light.ttf");
+}
+html,body{
+    background: green;
+}
+.containner{
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.clear{
+    clear: both;
+}
+
+header{
+    width: 100%;
+    height: 100%;
+    max-height:500px;
+    padding: 40px  2%;
+    background-image: url("../img/capa.png");
+    background-size: cover;
+    background-position: center;
+}
+
+header .containner .logo{
+    float: left;
+    width:50%;
+    max-width: 160px;
+}
+
+.logo img{
+    max-width: inherit;
+}
+header .containner nav {
+    float: right;
+    width: 50%;
+} 
+
+nav.menu-desktop ul{
+    float: right;
+}
+header .containner nav.menu-desktop ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0 20px;
+  
+}
+
+header .containner nav.menu-desktop ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  
+}
+
+header nav.menu-mobile{
+    display: none;
+}
+
+
+header .containner nav ul li:hover{
+    color:white;
+    font-weight: bold;
+}
+
+.containner .chamada{
+    width:60%;
+    max-width: 800px;
+    float: right;
+    margin: 100px 83px;
+
+}
+
+.chamada h2{
+    font-size:40px;
+    color: white;
+    font-weight: normal;
+}
+
+.chamada p{
+    color:white;
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-size: 18px;
+
+}
+
+/* Apartir da que é a section*/
+
+section.sessao-1{
+    width: 100%;
+    background: #472562;
+    height: 400px;
+   
+
+}
+.sessao-1 .containner{
+    max-width: 1060px;
+    padding: 0 2%;
+    height: 400px;
+   
+}
+
+.containner .text-section{
+    width: 46%;
+    float: left;
+    margin-top: 60px;
+    position: relative;
+    left: 40px;
+ 
+}
+
+.text-section h2{
+    font-weight: normal;
+    font-size: 30px;
+    color:white;
+    margin-bottom: 15px;
+}
+.text-section p{
+    color:white;
+}
+.text-section ul{
+    list-style-position: inside;
+}
+.text-section ul li{
+    color: white;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+
+.text-section .botao input[type=submit] {
+    width: 50%;
+    max-width: 170px;
+    height: 45px;
+    background-color: #ff703e;
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius:25px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.device {
+    width: 54%;
+    height:475px;
+    float: right;
+    background-image: url(../img/device.fw.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    top: -40px;
+   
+}
+    
+/* Disigne Responsivo */
+
+@media screen and (max-width: 938px){
+
+    header{
+        width: 100%;
+        height: auto;
+    }
+
+
+    .chamada h2{
+        font-size:20px;
+        color: white;
+        font-weight: normal;
+    }
+    
+    .sessao-1 .containner{
+        text-align: center;
+        max-width: 100%;
+        height: auto;
+    }
+    .containner .text-section{
+        width: 100%;
+        float:none;
+        display: inline-block;
+        left: 0;
+       
+        
+    }
+    .text-section ul{
+        display: inline-block;
+    }
+    .text-section ul li{
+        text-align: left;
+    }
+
+    .device {
+      float: none;
+      display: none;
+
+    }
+        
+}
+
+
+@media screen and (max-width: 768px){
+    
+    header .containner{
+        text-align: center;
+    }
+
+
+    header .containner .logo{
+        float: none;
+        width:100%;
+        max-width: 160px;
+        display: inline-block;
+    }
+
+
+    header .containner nav {
+        float: none;
+        width: 100%;
+        padding-top: 15px;
+    } 
+
+    header .containner nav ul{
+        float:none;
+    }
+
+    .containner .chamada{
+        width:100%;
+        max-width: 800px;
+        float: none;
+        margin: 100px 0;
+    
+    }
+    
+}
