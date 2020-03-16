@@ -9,7 +9,7 @@
     src: url("../fonts/OpenSans-Light.ttf");
 }
 html,body{
-    background: green;
+   height: auto;
 }
 .containner{
     width: 100%;
@@ -40,10 +40,11 @@ header .containner .logo{
 .logo img{
     max-width: inherit;
 }
-header .containner nav {
+ 
+nav.menu-desktop {
+    width:50%;
     float: right;
-    width: 50%;
-} 
+}
 
 nav.menu-desktop ul{
     float: right;
@@ -62,8 +63,51 @@ header .containner nav.menu-desktop ul li a{
   
 }
 
+/* mobile*/ 
+
 header nav.menu-mobile{
     display: none;
+    width:100%;
+    max-width: 32px;
+    height: 32px;
+    background-image: url("../img/menu.png");
+    background-size:100% 100%;
+    background-position: right;
+    background-repeat: no-repeat;
+    margin: 0 20px;
+    float: right;
+
+
+}
+
+
+header nav.menu-mobile ul{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top:80px;
+    background: rgba(255, 255, 255, 0.863);
+    list-style-type: none;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 6px;
+    grid: 40px 40px 1fr;
+    
+ 
+
+} 
+header nav.menu-mobile ul{
+    transition: 0.9s;
+    opacity: 0;
+}
+header nav.menu-mobile ul li{
+    padding: 4px 0;
+}
+header nav.menu-mobile ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 
@@ -129,7 +173,9 @@ section.sessao-1{
     color:white;
 }
 .text-section ul{
-    list-style-position: inside;
+    list-style-position: outside;
+    padding-top: 7px;
+    padding-left: 19px;
 }
 .text-section ul li{
     color: white;
@@ -209,38 +255,61 @@ section.sessao-1{
         
 }
 
+/* RESPOSIVO */
+
 
 @media screen and (max-width: 768px){
     
     header .containner{
-        text-align: center;
+        text-align: left;
     }
 
 
     header .containner .logo{
         float: none;
-        width:100%;
+        width:50%;
         max-width: 160px;
         display: inline-block;
     }
 
+    nav.menu-desktop {
+       display: none;
+    }
+    
 
-    header .containner nav {
-        float: none;
-        width: 100%;
-        padding-top: 15px;
-    } 
+   
+    header nav.menu-mobile{
+    display: block;
+    width:50%;
+    max-width: 32px;
+    height: 32px;
+    background-image: url("../img/menu.png");
+    background-size:100% 100%;
+    background-position: right;
+    background-repeat: no-repeat;
+    margin: -24px 20px;
+   
+}
 
-    header .containner nav ul{
-        float:none;
+    header nav.menu-mobile:hover ul {
+        opacity: 1;
+    }
+    header nav.menu-mobile ul li a:hover  {
+        color: rgb(19, 136, 204);
+        border-bottom: 3px groove rgb(4, 78, 121);
+    
+
     }
 
     .containner .chamada{
-        width:100%;
-        max-width: 800px;
-        float: none;
-        margin: 100px 0;
-    
+            width:100%;
+            max-width: 800px;
+            float: none;
+            margin-top: 157px;
+            margin-right: 0;
+            margin-left: 0;
+            text-align: center;
+        
+        }
+        
     }
-    
-}
