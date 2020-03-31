@@ -215,6 +215,7 @@ section.sessao-1{
 
 .slider-bullets{
     width: 100%;
+    margin-top: 5px;
  
 }
 .slider-bullets span{
@@ -224,20 +225,102 @@ section.sessao-1{
     margin-top: 12px;
     border-radius: 8px;
     background-color: rgb(200, 200, 200);
+    cursor: pointer;
+}
+
+.slider-bullets  span:first-of-type{
+    background: black;
 }
     
+section.sessao-5 .form{
+    width: 50%;
+    float: left;
+    color: white;
+}
+
+section.sessao-5{
+    width: 100%;
+    padding: 100px 0;
+    background: #472663;
+}
+
+.sessao-5 .form h2{
+    color: white;
+    font-size: 40px;
+
+}
+
+.sessao-5 .form p{
+    color:white;
+    font-size: 16px;
+    width: 100%;
+    max-width: 444px;
+}
+
+.sessao-5 .form form{
+    margin-top: 15px;
+}
+
+.sessao-5 .form form  input[type=text],.sessao-5 input[type=email]{
+    width: 100%;
+    max-width: 480px;
+    height: 58px;
+    padding-left: 8px;
+    line-height: 58px;
+    margin: 5px 0;
+    border:1px solid rgb(200, 200, 200);
+    
+}
+
+.sessao-5 .form form textarea{
+    width: 100%;
+    max-width: 480px;
+    height: 160px;
+    padding: 15px;
+    border: 1px solid rgb(200, 200, 200);
+    margin-top: 5px;
+
+}
 
 
+.sessao-5 .form form input[type=submit]{
+    width: 100%;
+    max-width: 105px;
+    height: 44px;
+    color: white;
+    background-color: #ff703e;
+    font-size: 14px;
+    font-weight: bold;
+    border: 0;
+    border-radius: 20px;
+    display: block;
+    margin-top: 15px;
+    cursor: pointer;
+
+}
 
 
+/*############################################################################*/
+/*############################################################################*/
+/*############################################################################*/
+/*############################################################################*/
+/*############################################################################*/
+/*############################################################################*/
+/*############################################################################*/
+/*############################################################################*/
+/*############################################################################*/
+/*############################################################################*/
+/*############################################################################*/
+/*############################################################################*/
+/*############################################################################*/
+/*############################################################################*/
+/*############################################################################*/
+/*############################################################################*/
 
 
-
-
-
-
-
-/* Disigne RESPONSIVO */
+/*  RESPONSIVO */
+/*  RESPONSIVO */
+/*  RESPONSIVO */
 
 @media screen and (max-width: 938px){
 
@@ -357,7 +440,7 @@ section.sessao-4{
     height: 350px ;
     background-color:white;
     float: right;
-    padding: 132px 80px ;
+    padding: 120px 80px 60px 60px ;
     
 }
 
@@ -428,7 +511,7 @@ section.sessao-3{
 .sessao-3 .parte-1{
     max-width:500px;
     height: auto;
-    padding: 163px 40px 90px 40px;
+    padding: 80px 40px 90px 40px;
     float:none;
     display: inline-block;
    
@@ -648,7 +731,17 @@ section.sessao-4{
             
         }
             
-
+        .sessao-2 .img-sessao-2{
+            width:100%;
+            padding-left: 1%;
+            padding-right: 1%;
+            position: relative;
+            top: 9px;
+            left: 0;
+            padding-bottom: 10px;
+        }
+        
+            
         
         
     }
