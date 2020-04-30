@@ -196,6 +196,15 @@ section.sessao-1{
     cursor: pointer;
 }
 
+.text-section .botao input[type=submit]:hover{
+	background-color:rgb(167, 54, 14);
+	transition:0.4s;
+}
+.sessao-5 .form form input[type=submit]:hover{
+	background-color:rgb(167, 54, 14);
+	transition:0.4s;
+}
+
 .device {
     width: 54%;
     height:475px;
