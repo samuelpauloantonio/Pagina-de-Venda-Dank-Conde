@@ -77,12 +77,14 @@ header nav.menu-mobile{
     background-repeat: no-repeat;
     margin: 0 20px;
     float: right;
+    cursor: pointer;
 
 
 }
 
 
 header nav.menu-mobile ul{
+    display: none;
     width: 100%;
     position: absolute;
     left: 0;
@@ -91,15 +93,14 @@ header nav.menu-mobile ul{
     list-style-type: none;
     text-align: center;
     margin-bottom: 20px;
-    padding: 6px;
- 
+    
 } 
-header nav.menu-mobile ul{
-    transition: 0.9s;
-    opacity: 0;
-}
+
 header nav.menu-mobile ul li{
     padding: 4px 0;
+    width:100%;
+    border-top: 1px solid rgb(136, 136, 136);
+    border-bottom:1px solid rgb(136, 136, 136);
 }
 header nav.menu-mobile ul li a{
     color: black;
@@ -877,7 +878,6 @@ section.sessao-4{
         }
 
         .wraper-3 .wraper-2{
-        
             width: 100%;
             height: 100%;
             padding-top:0;
