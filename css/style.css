@@ -280,6 +280,7 @@ section.sessao-5 .form{
     line-height: 58px;
     margin: 5px 0;
     border:1px solid rgb(200, 200, 200);
+    outline: none;
     
 }
 
@@ -290,7 +291,7 @@ section.sessao-5 .form{
     padding: 15px;
     border: 1px solid rgb(200, 200, 200);
     margin-top: 5px;
-    
+    outline: none;
 
 }
 
@@ -308,6 +309,7 @@ section.sessao-5 .form{
     display: block;
     margin-top: 15px;
     cursor: pointer;
+    outline:none;
 
 }
 
@@ -355,7 +357,7 @@ section.sessao-5 .form{
 
 footer{
     width: 100%;
-    padding: 40px 0; 
+    padding: 40px 2%; 
     background:#1a2124 ;
  
 
@@ -859,6 +861,7 @@ section.sessao-4{
         .sessao-5 .form form input[type=submit]{
             display: inline-block;
             margin: 30px 0;
+            
         
     }
 
