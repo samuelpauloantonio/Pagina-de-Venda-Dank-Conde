@@ -220,25 +220,6 @@ section.sessao-1{
 }
 
 
-.slider-bullets{
-    width: 100%;
-    margin-top: 5px;
- 
-}
-.slider-bullets span{
-    width: 16px;
-    height: 16px;
-    display: inline-block;
-    margin-top: 12px;
-    border-radius: 8px;
-    background-color: rgb(200, 200, 200);
-    cursor: pointer;
-}
-
-.slider-bullets  span:first-of-type{
-    background: black;
-}
-    
 
 
 section.sessao-5{
@@ -378,6 +359,140 @@ footer p:nth-of-type(2){
     float: right;
 }
 
+section.sessao-2{
+    padding-top:40px;
+    padding: 0 2%;
+    background: white;
+    text-align:center;
+}
+
+section.sessao-2 .containner .text-sessao-2{
+    width: 100%;
+    max-width: 945px;
+    display:inline-block;
+}
+
+.text-sessao-2 h2{
+    color:#472663;
+    font-size: 40px;
+    padding-bottom: 13px;
+}
+.text-sessao-2 p{
+    color:#472663;
+    font-size:16px;
+    line-height: 32px;
+
+}
+
+.sessao-2 .img-sessao-2{
+    width:100%;
+    padding-left: 1%;
+    padding-right: 1%;
+    position: relative;
+    top: 58px;
+    left: 0;
+    box-shadow: 4px 3px 29px gray;
+    
+    
+}
+
+.img-sessao-2 img{
+  width:inherit;
+ 
+
+}
+
+section.sessao-3{
+    width: 100%;
+    background-color: #835fa8;
+    display: flex;
+    
+    
+}
+
+.sessao-3 .parte-1 {
+    width: 60%;
+    display: flex;
+    flex-direction: row-reverse;
+  
+}
+
+
+.sessao-3 .parte-1-1{
+    max-width: 550px;
+    padding: 132px 80px 90px 7%;
+    
+
+}
+
+.parte-1-1 h2{
+    font-size: 20px;
+    color: white;
+    font-style: italic;
+}
+.parte-1-1 p{
+    
+    color: white;
+}
+
+
+.parte-2{
+    width: 40%;
+    background-color:white;
+    align-items: flex-end;
+    padding: 120px 80px 60px 60px ;
+    
+}
+
+
+ .parte-2 .perfil-wraper{
+    max-width: 450px;
+	overflow:hidden;
+}
+
+.parte-2 .scroll-equipe{
+	width: 100%;
+	float:left;
+}
+
+.parte-2 .scroll-equipe .sobre-autor{
+	float:left;
+	padding: 0 15px;
+}  
+    
+.scroll-equipe .sobre-autor .text{
+    display: flex;
+}
+ .scroll-equipe .sobre-autor .img-perfil img{ 
+    max-width: 60px;
+    max-height: 60px;
+    margin-left:15px;
+    
+}
+
+.sobre-autor .text-sobre{
+    margin-top: 20px;
+    text-align: justify;
+    
+}
+.sobre-autor .text{
+    text-align: left;
+}
+
+
+.sobre-autor .spans span{
+    width: 20px;
+    height:20px;
+    background-color: #ccc;
+    border-radius: 10px;
+    margin-top: 30px;
+    display: inline-block;
+    cursor:pointer;
+    margin: 20px 5px;
+}
+
+
+
 
 
 /*############################################################################*/
@@ -434,6 +549,8 @@ footer p:nth-of-type(2){
     }
     .text-section ul li{
         text-align: left;
+        
+
     }
 
     .device {
@@ -442,231 +559,66 @@ footer p:nth-of-type(2){
 
     }
         
-}
-
-section.sessao-2{
-    padding-top:40px;
-    padding: 0 2%;
-    background: white;
-    text-align:center;
-}
-
-section.sessao-2 .containner .text-sessao-2{
-    width: 100%;
-    max-width: 945px;
-    display:inline-block;
-}
-
-.text-sessao-2 h2{
-    color:#472663;
-    font-size: 40px;
-    padding-bottom: 13px;
-}
-.text-sessao-2 p{
-    color:#472663;
-    font-size:16px;
-    line-height: 32px;
-
-}
-
-.sessao-2 .img-sessao-2{
-    width:100%;
-    padding-left: 1%;
-    padding-right: 1%;
-    position: relative;
-    top: 58px;
-    left: 0;
-    box-shadow: 4px 3px 29px gray;
-    
-    
-}
-
-.img-sessao-2 img{
-  width:inherit;
- 
-
-}
-
-section.sessao-3{
-    width: 60%;
-    height:350px;
-    background-color: #835fa8;
-    float: left;
-
-    
-}
-
-
-.sessao-3 .parte-1{
-    max-width:430px;
-    height: 99px;
-    padding: 132px 80px 90px 0;
-    float: right;
-  
-  
-}
-
-.parte-1 h2{
-    font-size: 20px;
-    color: white;
-    font-style: italic;
-}
-.parte-1 p{
-    display: inline-block;
-    color: white;
-}
-
-
-section.sessao-4{
-    width: 40%;
-    height: 350px ;
-    background-color:white;
-    float: right;
-    padding: 120px 80px 60px 60px ;
-    
-}
-
-
-.sobre-autor{
-    width:100%
-}
-
-.text-sobre{
-    width: 50%;
-    float: left;
-    color: black;
-    
-}
-
-.img-pai{
-    width: 50%;
-    height: auto;
-    float: right;
-    clear: both;
-    position: relative;
-    top: -74px;
-    
-
-}
-
-.img-autor{
-    width: 50%;
-    max-width: 60px;
-    height: 60px;
-    background-image: url(../img/actor1.png);
-    background-size: 100%;
-    background-position: center;
-    background-repeat:no-repeat;
-    border-radius: 22px;
-   
-}
-
-.text-desc{
-    width: 100%;
-    margin-top: -20px;
-    
-}
-
-.text-desc P{
-    color:black;
-    text-align: justify;
-    
-}
-    
+}/*/RESPONSIVO*/
 
 
 
-
-@media screen and (max-width: 1626px){
-    
-section.sessao-3{
-    width: 100%;
-    height:auto;
-    background-color: #835fa8;
-    float: none;
-    text-align: center;
-
-    
-}
+/*/////////RESPONSIVO////////////*/
 
 
-.sessao-3 .parte-1{
-    max-width:500px;
-    height: auto;
-    padding: 80px 40px 90px 40px;
-    float:none;
-    display: inline-block;
-   
-  
-  
-}
+
+@media screen and (max-width: 837px){
+    .sessao-3 {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 50px ;
+    }
 
 
-section.sessao-4{
-    width:100%;
-    height: auto ;
-    float: none;
-    padding: 80px 40px 90px 30px;
-    text-align: center;
+    .sessao-3 .parte-1 {
+        width: 100%;
+       text-align: center;
+       flex-direction: row;
+       justify-content: center;
+       padding:30px;
+      
+    }
+    .sessao-3 .parte-1-1{
+        max-width: 600px;
+        padding:0;
+        
 
-}
+    }
+    .parte-2{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color:white;
+        padding: 30px 2%;
+        margin-top: 30px;;
+        
+    }
+    .parte-2 .scroll-equipe .sobre-autor {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+    .scroll-equipe .sobre-autor .text{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        
+    }
 
+    .scroll-equipe .sobre-autor .text-sobre p{
+        text-align: center;
+    }
 
-.sobre-autor{
-    width:70%;
-    display: inline-block;
-
-}
-
-.text-sobre{
-    width: 50%;
-    float: none;
-    color: black;
-    display: inline-block;
-   
-  
-    
-}
-
-.img-pai{
-    position: relative;
-    width: 50%;
-    height: auto;
-    float: none;
-    position: relative;;
-    top: -173px;
-    left: 0%;
-    margin: 0 auto;
-    
-    
-    
-
-}
-
-.img-autor{
-    width: 100%;
-    max-width:100px;
-    height: 100px;
-    background-image: url(../img/actor1.png);
-    background-size: 100%;
-    background-position: center;
-    border-radius: 22px;
-    display: inline-block;
-   
-    
-    
-}
-
-.text-desc{
-    width: 100%;
-    text-align: center;
-    margin-top: -77px;
-
-}
-
-.text-desc P{
-    display: inline-block;
-    color:black;
+    .spans{
+        display: flex;
+        justify-content: center;
+    }
     
     
 }
@@ -675,7 +627,11 @@ section.sessao-4{
 
 
 
-}
+
+
+
+
+/*////////////////////////////////////////////*/
 
 
 
@@ -734,85 +690,14 @@ section.sessao-4{
         
         }
 
-        
-
-        
 
         .text-sessao-2 h2 {
            font-size:25px ;
            padding: 20px;
         }
 
-        section.sessao-4{
-            width:100%;
-            height: auto ;
-            float: none;
-            padding:20px;
-            text-align: center;
+       
         
-        }
-        
-        
-        .sobre-autor{
-            width:100%;
-            display: inline-block;
-        
-        }
-        
-        .text-sobre{
-            width: 100%;
-            float: none;
-            color: black;
-            display: inline-block;
-            margin-top: 30px;
-           
-          
-            
-        }
-        
-        .img-pai{
-            position: relative;
-            width: 50%;
-            height: auto;
-            float: none;
-            position: relative;;
-            top: -170px;
-            left: 0%;
-            margin: 0 auto;
-            
-            
-            
-        
-        }
-        
-        .img-autor{
-            width: 100%;
-            max-width:100px;
-            height: 100px;
-            background-image: url(../img/actor1.png);
-            background-size: 100%;
-            background-position: center;
-            border-radius: 22px;
-            display: inline-block;
-           
-            
-            
-        }
-        
-        .text-desc{
-            width: 100%;
-            text-align: center;
-            margin-top: -77px;
-        
-        }
-        
-        .text-desc P{
-            display: inline-block;
-            color:black;
-            
-            
-        }
-            
         .sessao-2 .img-sessao-2{
             width:100%;
             padding-left: 1%;
